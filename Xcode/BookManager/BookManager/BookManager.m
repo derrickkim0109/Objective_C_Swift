@@ -67,4 +67,17 @@
     // Data 없다면?
     return nil;
 }
+
+-(NSString *)removeBook:(NSString *)name{
+    for (Book * bookTemp in bookList){
+        // name 찾았으면 
+        if ([bookTemp.name isEqualToString:name]){
+            [bookList removeObject:bookTemp];
+            return name;
+        }
+    }
+    // 못찾았으면
+    return nil;
+}
+
 @end

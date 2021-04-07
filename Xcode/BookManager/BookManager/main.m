@@ -51,6 +51,17 @@ int main(int argc, const char * argv[]) {
         }else{
             NSLog(@"There is nothing that you find");
         }
+        
+        // Remove
+        NSString * removeResult = [myBookList removeBook:@"How did he make a lot of money?"];
+        if (removeResult != nil) {
+            NSLog(@"%@ has became removing", removeResult);
+        }else{
+            NSLog(@"I couldn't find it");
+        }
+        // 책이 몇개나 남았는지 확인
+        NSLog(@"%@", [myBookList showTotalBooks]);
+        NSLog(@"count : %li", [myBookList countBook]);
     }
     return 0;
 }
