@@ -14,7 +14,7 @@
 @end
 
 @implementation ViewController
-@synthesize resultTextView, bookNameTextField,bookGenreTextField,bookAuthorTextField;
+@synthesize resultTextView, bookNameTextField,bookGenreTextField,bookAuthorTextField,searchBarTextField, countTotalBooksLabel;
 
 
 - (void)viewDidLoad {
@@ -43,12 +43,18 @@
     [myBook addBook:firstBook];
     [myBook addBook:secondBook];
     [myBook addBook:thirdBook];
+    
+    countTotalBooksLabel.text = [NSString stringWithFormat: @"%li", [myBook countBook]];
+    
 }
+
+// Total BookList Button
 -(IBAction)showTotalBookAction :(id)sender{
     resultTextView.text = [myBook showTotalBooks];
     // [resultTextView setText:[myBook showTotalBooks]]; 위에랑 똑같은 코드임.
 }
 
+// Insert Button
 -(IBAction)insertBookAction:(id)sender{
     Book * bookTemp = [[Book alloc]init];
     bookTemp.name = bookNameTextField.text;
@@ -56,7 +62,34 @@
     bookTemp.author = bookAuthorTextField.text;
     
     [myBook addBook: bookTemp];
+    
     resultTextView.text = @"Successfully completed to insert a new book in your book list";
+    countTotalBooksLabel.text = [NSString stringWithFormat: @"%li", [myBook countBook]]; 
 }
 
+// Searching Button
+-(IBAction)searchBarAction:(id)sender{
+    NSString * strTemp = [myBook findBook:searchBarTextField.text];
+    if (strTemp != nil) {
+        resultTextView.text = strTemp;
+    }else{
+        resultTextView.text = @"There isn't the book that you find.";
+    }
+    
+}
+// Delete Button
+-(IBAction)deleteAction:(id)sender{
+    NSString * bookName = [myBook removeBook:bookNameTextField.text];
+    
+    NSMutableString * additionalComment = [[NSMutableString  alloc]init];
+    [additionalComment appendString: bookName];
+    [additionalComment appendString:@" is deleted."];
+    
+    if (bookName != nil) {
+        resultTextView.text = additionalComment;
+        countTotalBooksLabel.text = [NSString stringWithFormat: @"%li", [myBook countBook]];
+    }else{
+        resultTextView.text = @"There isn't the book that you find.";
+    }
+}
 @end

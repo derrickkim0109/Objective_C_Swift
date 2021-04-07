@@ -18,10 +18,20 @@
 @property(nonatomic, strong) IBOutlet UITextField * bookGenreTextField;
 @property(nonatomic, strong) IBOutlet UITextField * bookAuthorTextField;
 
+// 검색 TextField
+@property(nonatomic, strong) IBOutlet UITextField * searchBarTextField;
+
+// Total Count
+@property(nonatomic, strong) IBOutlet UILabel * countTotalBooksLabel;
+
 
 -(IBAction)showTotalBookAction :(id)sender;
 
 -(IBAction)insertBookAction:(id)sender;
+
+-(IBAction)searchBarAction:(id)sender;
+
+-(IBAction)deleteAction:(id)sender;
 
 @end
 
