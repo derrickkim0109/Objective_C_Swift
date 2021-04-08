@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  AppLifeCycle
+//  HybridApp
 //
-//  Created by Derrick kim on 2021/04/07.
+//  Created by Derrick kim on 2021/04/08.
 //
 
 #import "AppDelegate.h"
@@ -13,23 +13,11 @@
 
 @implementation AppDelegate
 
-// 설정해야하는 부분.
-// 우선순위 1
-//- (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary<UIApplicationLaunchOptionsKey,id> *)launchOptions{
-//    NSLog(@"willFinishLaunchingWithOptions");
-//    return YES;
-//}
 
-// 우선순위 2
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    NSLog(@"didFinishLaunchingWithOptions");
+    // Override point for customization after application launch.
     return YES;
 }
-
-//  willFinishLaunchingWithOptions는 한번만 실행 <->. 이건 여러번 실행됨
-//- (void)applicationDidBecomeActive:(UIApplication *)application{
-//    NSLog(@"applicationDidBecomeActive");
-//}
 
 
 #pragma mark - UISceneSession lifecycle
@@ -48,23 +36,5 @@
     // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
 }
 
-- (void)applicationDidEnterBackground:(UIApplication *)application{
-    NSLog(@"applicationDidEnterBackground");
-}
-
-- (void)applicationWillEnterForeground:(UIApplication *)application{
-    NSLog(@"applicationWillEnterForeground");
-}
-
-- (void)applicationWillTerminate:(UIApplication *)application{
-    NSLog(@"applicationWillTerminate");
-}
-
-- (void)applicationDidBecomeActive:(UIApplication *)application{
-    NSLog(@"applicationDidBecomeActive");
-}
-- (void)applicationWillResignActive:(UIApplication *)application{
-    NSLog(@"applicationWillResignActive");
-}
 
 @end

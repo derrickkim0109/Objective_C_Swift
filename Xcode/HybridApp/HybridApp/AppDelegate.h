@@ -1,13 +1,12 @@
 //
 //  AppDelegate.h
-//  AppLifeCycle
+//  HybridApp
 //
-//  Created by Derrick kim on 2021/04/07.
+//  Created by Derrick kim on 2021/04/08.
 //
 
 #import <UIKit/UIKit.h>
 
-// NSObject < UIResponder < UIView UIViewController
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 

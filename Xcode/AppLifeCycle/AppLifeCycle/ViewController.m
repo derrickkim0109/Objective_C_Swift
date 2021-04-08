@@ -13,10 +13,33 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
+- (void)loadView{
+    [super loadView];
+    NSLog(@"loadView");
 }
 
-
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    NSLog(@"viewDidLoad");
+}
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    NSLog(@"viewWillAppear");
+}
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    NSLog(@"viewDidAppear");
+}
+- (void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+    NSLog(@"viewWillDisappear");
+}
+- (void)viewDidDisappear:(BOOL)animated{
+    [super viewDidDisappear:animated];
+    NSLog(@"viewDidDisappear");
+}
+- (void)didReceiveMemoryWarning{
+    [super didReceiveMemoryWarning];
+    NSLog(@"didReceiveMemoryWarning");
+}
 @end
