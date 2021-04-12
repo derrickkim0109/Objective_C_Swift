@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55785FE12623E1F700B8B85F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55785FE02623E1F700B8B85F /* AppDelegate.m */; };
+		55785FE42623E1F700B8B85F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55785FE32623E1F700B8B85F /* SceneDelegate.m */; };
+		55785FE72623E1F700B8B85F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55785FE62623E1F700B8B85F /* ViewController.m */; };
+		55785FEA2623E1F700B8B85F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55785FE82623E1F700B8B85F /* Main.storyboard */; };
+		55785FEC2623E1F800B8B85F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55785FEB2623E1F800B8B85F /* Assets.xcassets */; };
+		55785FEF2623E1F800B8B85F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55785FED2623E1F800B8B85F /* LaunchScreen.storyboard */; };
+		55785FF22623E1F800B8B85F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55785FF12623E1F800B8B85F /* main.m */; };
+		557860222623E29E00B8B85F /* constellation.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 557860162623E29E00B8B85F /* constellation.jpeg */; };
+		557860232623E29E00B8B85F /* aurora.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 557860172623E29E00B8B85F /* aurora.jpeg */; };
+		557860242623E29E00B8B85F /* eaglestar.png in Resources */ = {isa = PBXBuildFile; fileRef = 557860182623E29E00B8B85F /* eaglestar.png */; };
+		557860252623E29E00B8B85F /* rabbit.png in Resources */ = {isa = PBXBuildFile; fileRef = 557860192623E29E00B8B85F /* rabbit.png */; };
+		557860262623E29E00B8B85F /* rabbitstar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5578601A2623E29E00B8B85F /* rabbitstar.png */; };
+		557860272623E29E00B8B85F /* horsestar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5578601B2623E29E00B8B85F /* horsestar.png */; };
+		557860282623E29E00B8B85F /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 5578601C2623E29E00B8B85F /* dog.png */; };
+		557860292623E29E00B8B85F /* bearstar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5578601D2623E29E00B8B85F /* bearstar.png */; };
+		5578602A2623E29E00B8B85F /* bear.png in Resources */ = {isa = PBXBuildFile; fileRef = 5578601E2623E29E00B8B85F /* bear.png */; };
+		5578602B2623E29E00B8B85F /* eagle.png in Resources */ = {isa = PBXBuildFile; fileRef = 5578601F2623E29E00B8B85F /* eagle.png */; };
+		5578602C2623E29E00B8B85F /* dogstar.png in Resources */ = {isa = PBXBuildFile; fileRef = 557860202623E29E00B8B85F /* dogstar.png */; };
+		5578602D2623E29E00B8B85F /* horse.png in Resources */ = {isa = PBXBuildFile; fileRef = 557860212623E29E00B8B85F /* horse.png */; };
+		557860312623F64A00B8B85F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 557860302623F64A00B8B85F /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55785FDC2623E1F700B8B85F /* ConstellationExplanation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConstellationExplanation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55785FDF2623E1F700B8B85F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55785FE02623E1F700B8B85F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55785FE22623E1F700B8B85F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		55785FE32623E1F700B8B85F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		55785FE52623E1F700B8B85F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		55785FE62623E1F700B8B85F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		55785FE92623E1F700B8B85F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55785FEB2623E1F800B8B85F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55785FEE2623E1F800B8B85F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55785FF02623E1F800B8B85F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55785FF12623E1F800B8B85F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		557860162623E29E00B8B85F /* constellation.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = constellation.jpeg; path = "../../../../강의 자료/Source/13-2. ConstellationExplanation Images/constellation.jpeg"; sourceTree = "<group>"; };
+		557860172623E29E00B8B85F /* aurora.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = aurora.jpeg; path = "../../../../강의 자료/Source/13-2. ConstellationExplanation Images/aurora.jpeg"; sourceTree = "<group>"; };
+		557860182623E29E00B8B85F /* eaglestar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eaglestar.png; path = "../../../../강의 자료/Source/13-2. ConstellationExplanation Images/eaglestar.png"; sourceTree = "<group>"; };
+		557860192623E29E00B8B85F /* rabbit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rabbit.png; path = "../../../../강의 자료/Source/13-2. ConstellationExplanation Images/rabbit.png"; sourceTree = "<group>"; };
+		5578601A2623E29E00B8B85F /* rabbitstar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rabbitstar.png; path = "../../../../강의 자료/Source/13-2. ConstellationExplanation Images/rabbitstar.png"; sourceTree = "<group>"; };
+		5578601B2623E29E00B8B85F /* horsestar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = horsestar.png; path = "../../../../강의 자료/Source/13-2. ConstellationExplanation Images/horsestar.png"; sourceTree = "<group>"; };
+		5578601C2623E29E00B8B85F /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dog.png; path = "../../../../강의 자료/Source/13-2. ConstellationExplanation Images/dog.png"; sourceTree = "<group>"; };
+		5578601D2623E29E00B8B85F /* bearstar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bearstar.png; path = "../../../../강의 자료/Source/13-2. ConstellationExplanation Images/bearstar.png"; sourceTree = "<group>"; };
+		5578601E2623E29E00B8B85F /* bear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bear.png; path = "../../../../강의 자료/Source/13-2. ConstellationExplanation Images/bear.png"; sourceTree = "<group>"; };
+		5578601F2623E29E00B8B85F /* eagle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eagle.png; path = "../../../../강의 자료/Source/13-2. ConstellationExplanation Images/eagle.png"; sourceTree = "<group>"; };
+		557860202623E29E00B8B85F /* dogstar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dogstar.png; path = "../../../../강의 자료/Source/13-2. ConstellationExplanation Images/dogstar.png"; sourceTree = "<group>"; };
+		557860212623E29E00B8B85F /* horse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = horse.png; path = "../../../../강의 자료/Source/13-2. ConstellationExplanation Images/horse.png"; sourceTree = "<group>"; };
+		5578602F2623F64A00B8B85F /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		557860302623F64A00B8B85F /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55785FD92623E1F700B8B85F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55785FD32623E1F700B8B85F = {
+			isa = PBXGroup;
+			children = (
+				55785FDE2623E1F700B8B85F /* ConstellationExplanation */,
+				55785FDD2623E1F700B8B85F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55785FDD2623E1F700B8B85F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55785FDC2623E1F700B8B85F /* ConstellationExplanation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55785FDE2623E1F700B8B85F /* ConstellationExplanation */ = {
+			isa = PBXGroup;
+			children = (
+				55785FF92623E20B00B8B85F /* Images */,
+				55785FDF2623E1F700B8B85F /* AppDelegate.h */,
+				55785FE02623E1F700B8B85F /* AppDelegate.m */,
+				55785FE22623E1F700B8B85F /* SceneDelegate.h */,
+				55785FE32623E1F700B8B85F /* SceneDelegate.m */,
+				55785FE52623E1F700B8B85F /* ViewController.h */,
+				55785FE62623E1F700B8B85F /* ViewController.m */,
+				5578602F2623F64A00B8B85F /* DetailViewController.h */,
+				557860302623F64A00B8B85F /* DetailViewController.m */,
+				55785FE82623E1F700B8B85F /* Main.storyboard */,
+				55785FEB2623E1F800B8B85F /* Assets.xcassets */,
+				55785FED2623E1F800B8B85F /* LaunchScreen.storyboard */,
+				55785FF02623E1F800B8B85F /* Info.plist */,
+				55785FF12623E1F800B8B85F /* main.m */,
+			);
+			path = ConstellationExplanation;
+			sourceTree = "<group>";
+		};
+		55785FF92623E20B00B8B85F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				557860172623E29E00B8B85F /* aurora.jpeg */,
+				5578601E2623E29E00B8B85F /* bear.png */,
+				5578601D2623E29E00B8B85F /* bearstar.png */,
+				557860162623E29E00B8B85F /* constellation.jpeg */,
+				5578601C2623E29E00B8B85F /* dog.png */,
+				557860202623E29E00B8B85F /* dogstar.png */,
+				5578601F2623E29E00B8B85F /* eagle.png */,
+				557860182623E29E00B8B85F /* eaglestar.png */,
+				557860212623E29E00B8B85F /* horse.png */,
+				5578601B2623E29E00B8B85F /* horsestar.png */,
+				557860192623E29E00B8B85F /* rabbit.png */,
+				5578601A2623E29E00B8B85F /* rabbitstar.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55785FDB2623E1F700B8B85F /* ConstellationExplanation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55785FF52623E1F800B8B85F /* Build configuration list for PBXNativeTarget "ConstellationExplanation" */;
+			buildPhases = (
+				55785FD82623E1F700B8B85F /* Sources */,
+				55785FD92623E1F700B8B85F /* Frameworks */,
+				55785FDA2623E1F700B8B85F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConstellationExplanation;
+			productName = ConstellationExplanation;
+			productReference = 55785FDC2623E1F700B8B85F /* ConstellationExplanation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55785FD42623E1F700B8B85F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					55785FDB2623E1F700B8B85F = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 55785FD72623E1F700B8B85F /* Build configuration list for PBXProject "ConstellationExplanation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55785FD32623E1F700B8B85F;
+			productRefGroup = 55785FDD2623E1F700B8B85F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55785FDB2623E1F700B8B85F /* ConstellationExplanation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55785FDA2623E1F700B8B85F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5578602B2623E29E00B8B85F /* eagle.png in Resources */,
+				55785FEF2623E1F800B8B85F /* LaunchScreen.storyboard in Resources */,
+				557860232623E29E00B8B85F /* aurora.jpeg in Resources */,
+				557860242623E29E00B8B85F /* eaglestar.png in Resources */,
+				5578602C2623E29E00B8B85F /* dogstar.png in Resources */,
+				557860222623E29E00B8B85F /* constellation.jpeg in Resources */,
+				557860252623E29E00B8B85F /* rabbit.png in Resources */,
+				5578602D2623E29E00B8B85F /* horse.png in Resources */,
+				5578602A2623E29E00B8B85F /* bear.png in Resources */,
+				55785FEC2623E1F800B8B85F /* Assets.xcassets in Resources */,
+				557860282623E29E00B8B85F /* dog.png in Resources */,
+				55785FEA2623E1F700B8B85F /* Main.storyboard in Resources */,
+				557860272623E29E00B8B85F /* horsestar.png in Resources */,
+				557860262623E29E00B8B85F /* rabbitstar.png in Resources */,
+				557860292623E29E00B8B85F /* bearstar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55785FD82623E1F700B8B85F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557860312623F64A00B8B85F /* DetailViewController.m in Sources */,
+				55785FE72623E1F700B8B85F /* ViewController.m in Sources */,
+				55785FE12623E1F700B8B85F /* AppDelegate.m in Sources */,
+				55785FF22623E1F800B8B85F /* main.m in Sources */,
+				55785FE42623E1F700B8B85F /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55785FE82623E1F700B8B85F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55785FE92623E1F700B8B85F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55785FED2623E1F800B8B85F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55785FEE2623E1F800B8B85F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55785FF32623E1F800B8B85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		55785FF42623E1F800B8B85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55785FF62623E1F800B8B85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConstellationExplanation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appstamp.ConstellationExplanation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55785FF72623E1F800B8B85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ConstellationExplanation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.appstamp.ConstellationExplanation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55785FD72623E1F700B8B85F /* Build configuration list for PBXProject "ConstellationExplanation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55785FF32623E1F800B8B85F /* Debug */,
+				55785FF42623E1F800B8B85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55785FF52623E1F800B8B85F /* Build configuration list for PBXNativeTarget "ConstellationExplanation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55785FF62623E1F800B8B85F /* Debug */,
+				55785FF72623E1F800B8B85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55785FD42623E1F700B8B85F /* Project object */;
+}
