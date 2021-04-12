@@ -12,10 +12,18 @@
 @end
 
 @implementation DetailViewController
+@synthesize detailImageView, detailNameTextField,detailPriceTextField, detailAmountTextField, detailData;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    NSLog(@"Detail Data : %@", detailData);
+    detailNameTextField.text = [detailData objectForKey:@"Name"];
+    detailAmountTextField.text = [detailData objectForKey:@"amount"];
+    detailPriceTextField.text = [detailData objectForKey:@"Price"];
+    
+    detailImageView.image = [UIImage imageNamed: [detailData objectForKey:@"image"]];
+    detailImageView.layer.cornerRadius = 50.0;
+    detailImageView.layer.masksToBounds = YES;
 }
 
 /*

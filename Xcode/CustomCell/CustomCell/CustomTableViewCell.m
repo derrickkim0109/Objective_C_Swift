@@ -15,6 +15,7 @@
     [super awakeFromNib];
     imageView.layer.cornerRadius = 50.0;
     imageView.layer.masksToBounds = YES;
+    
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

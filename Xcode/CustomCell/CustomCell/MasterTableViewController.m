@@ -7,7 +7,7 @@
 
 #import "MasterTableViewController.h"
 #import "CustomTableViewCell.h"
-
+#import "DetailViewController.h"
 
 @interface MasterTableViewController ()
 
@@ -47,6 +47,14 @@
     itemList = [[NSArray alloc]initWithObjects:item1,item2,item3,item4,item5,item6,item7,item8,item9,item10,item11,item12,
                 item13, nil];
     
+    // Background 채워넣기.
+    UIImageView * backgroundImageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"background.jpg"]];
+    backgroundImageView.contentMode = UIViewContentModeScaleAspectFill;
+    // size matching
+    backgroundImageView.frame = self.tableView.frame;
+    
+    self.tableView.backgroundView = backgroundImageView;
+    // Main Storyboard로 가서 clear color 설정을 해주어야함.
 }
 
 #pragma mark - Table view data source
@@ -64,7 +72,8 @@
     CustomTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"myCell" forIndexPath:indexPath];
     
     NSDictionary *dicTemp = [itemList objectAtIndex:indexPath.row];
-    
+    // clear color
+    cell.backgroundColor = [UIColor clearColor];
     
     cell.nameLabel.text = [dicTemp objectForKey:@"Name"];
     cell.amountLabel.text = [dicTemp objectForKey:@"amount"];
@@ -75,7 +84,9 @@
     
     return cell;
 }
-
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return 140;
+}
 
 /*
 // Override to support conditional editing of the table view.
@@ -111,14 +122,18 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    if ([[segue identifier]isEqualToString:@"detailSegue"]) {
+        NSIndexPath * indexPath = [self.tableView indexPathForSelectedRow];
+        [[segue destinationViewController]setDetailData:[itemList objectAtIndex:indexPath.row]];
+    }
 }
-*/
+
 
 @end
